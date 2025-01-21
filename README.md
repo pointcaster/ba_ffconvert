@@ -84,8 +84,8 @@ For example:
 #### 4_Video_to_GIF_960_128c_12.5fps
 - Converts any video to GIF at 960px horizontal resolution with 12.5 FPS. Uses a 128-color palette. You can make it 256, but the file size will be enormous.
 
-#### 5_Sequence_EXR_to_GIF_960_128c_12.5fps
-- Converts EXR sequences to GIFs at 960px horizontal resolution and 12.5 FPS. Uses a 128-color palette. Transparency is preserved if present.
+#### 5_Sequence_to_GIF_960_128c_12.5fps
+- Converts sequences to GIFs at 960px horizontal resolution and 12.5 FPS. Uses a 128-color palette. Transparency is preserved if present.
 
 #### 6_Sequence_EXR_to_h264
 - **1920_HQ**: Converts EXR sequences to H.264 at 1920px horizontal resolution. FPS is set to 25. Tuned for high quality.
@@ -103,6 +103,11 @@ For example:
 
 ### Customization
 - If you need additional encoding variations, feel free to modify the scripts to meet your specific requirements.
+
+---
+
+### Notes
+- All scripts are designed in a way that the resulting video will have either the original audio or an empty audio track, but never a missing one. This is intended to prevent messengers like Telegram from recognizing the video as a gif.
 
 ---
 
