@@ -56,7 +56,7 @@ For example:
   - **NVIDIA GPU**: Faster but slightly lower quality.
   - **CPU**: Slower but offers highest quality.
 - Example performance:
-  - NVIDIA RTX 3090 is approximately 3x faster than AMD 5950X for GPU encoding.
+  - NVIDIA RTX 3090 is approximately 3x faster than AMD 5950X for GPU encoding. Sometimes. Unless you need to convert 3-hour videos, it's strongly recommended to use the CPU version.
 
 ---
 
