@@ -1,0 +1,6 @@
+# _OUT folder
+_OUT/
+
+# General
+.DS_Store
+Thumbs.db
