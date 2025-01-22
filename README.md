@@ -43,15 +43,13 @@ For example:
 ---
 
 ### GIF Conversion
-- Bonus scripts allow you to convert videos or EXR sequences directly to GIFs:
-  - Hardcoded settings: 12.5 FPS and 960px horizontal width.
-  - For EXR sequences, transparency is preserved if present.
-  - Note: FPS may behave differently when converting sequences.
+- Hardcoded settings: 12.5 FPS and 960px horizontal width.
+- For EXR sequences, transparency is preserved if present.
+- Note: FPS may behave differently when converting sequences.
 
 ---
 
 ### Video Conversion
-- Bonus scripts are included for converting any video to H.264.
 - Two versions are provided:
   - **NVIDIA GPU**: Faster but slightly lower quality.
   - **CPU**: Slower but offers highest quality.
